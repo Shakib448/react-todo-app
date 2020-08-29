@@ -8,7 +8,7 @@ const TodoList = ({todos}) => {
             <div className="todo-container">
                 <ul className="todo-list">
                 {
-                    todos.map((todo , id) => <Todo text={todo.text} key={id}/>)
+                    todos.map((todo) => <Todo text={todo.text} key={todo.id}/>).slice(0, 10) // For limit
                 }
                 </ul>
             </div>
