@@ -15,10 +15,7 @@ function App() {
 
     const [filterTodos,
         setFilterTodos] = useState([]);
-
-
         
-
 
     const filterHandler = () =>{
       switch(status){

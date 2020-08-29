@@ -16,6 +16,8 @@ const Todo = ({text ,setTodos, todos, todo}) => {
             return item;
         }))
     };
+
+    
      
     return (
         <>
