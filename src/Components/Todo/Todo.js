@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Todo = ({inputText}) => {
+const Todo = () => {
     return (
         <>
             <div className="todo-container">
-                <ul className="todo-list">{inputText}</ul>
+                <ul className="todo-list"></ul>
             </div>
         </>
     )
