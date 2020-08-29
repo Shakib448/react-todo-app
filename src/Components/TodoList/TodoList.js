@@ -1,14 +1,14 @@
 import React from 'react'
 import Todo from '../Todo/Todo'
 
-const TodoList = ({todos}) => {
+const TodoList = ({todos, setTodos }) => {
 
     return (
         <>
             <div className="todo-container">
                 <ul className="todo-list">
                 {
-                    todos.map((todo) => <Todo text={todo.text} key={todo.id}/>).slice(0, 10) // For limit
+                    todos.map((todo) => <Todo todos={todos} setTodos={setTodos} todo={todo} text={todo.text} key={todo.id}/>).slice(0, 10) // For limit
                 }
                 </ul>
             </div>
