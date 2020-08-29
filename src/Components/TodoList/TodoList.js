@@ -1,5 +1,6 @@
-import React from 'react'
-import Todo from '../Todo/Todo'
+import React from 'react';
+import Todo from '../Todo/Todo';
+
 
 const TodoList = ({todos, setTodos, filterTodos }) => {
 
